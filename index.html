@@ -42,7 +42,6 @@
             align-items: center;
             height: 100vh;
             background-color: #fae1dd;
-            text-align: center;
         }
 
         .letter {
@@ -117,7 +116,7 @@
             text-align: center;
             line-height: 25px;
             top: 19px;
-            left: 60px;
+            left: 85px;
             color: #003049;
         }
 
@@ -421,7 +420,6 @@
             opacity: 1;
             visibility: visible;
             transform: scale(1);
-            text-align: center;
         }
 
         .box-content {
@@ -471,19 +469,16 @@
 
         .textLetter {
             width: 100%;
-            height: 100%;
             flex-direction: column;
             justify-content: center;
             display: flex;
             align-items: center;
             user-select: none;
-            text-align: center;
         }
 
         .textLetter h2 {
-            font-size: 20px;
+            font-size: 30px;
             font-family: 'Dancing Script', cursive;
-            text-align: center;
         }
 
         .textLetter .contentLetter {
@@ -504,11 +499,9 @@
     transition: 10s ease-in-out;
     cursor: pointer;
     z-index: 1000;
-    text-align: center;
 }
 .letters img{
     width: 100%;
-    text-align: center;
 }
 .wrapperLetterForm{
     position: absolute;
@@ -536,7 +529,6 @@
     z-index: 100;
     padding: 20px 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    text-align: center;
 }
 .formLetter .wrapperLetter{
     position: relative;
@@ -617,13 +609,11 @@
             display: flex;
             align-items: center;
             user-select: none;
-            text-letter: center;
         }
 
         .textLetter h2 {
             font-size: 30px;
             font-family: 'Dancing Script', cursive;
-            text-align: center;
         }
 
         .textLetter .contentLetter {
@@ -1113,7 +1103,7 @@
         // .textLetter text h2
         let indexText = 0;
         let textLetter = document.querySelector('.textLetter h2');
-        const textLetterH2 = "Gửi đến Cô giáo và tất cả các bạn nữ thân yêu của lớp K61ISI2 và K61ISI4!";
+        const textLetterH2 = "Gửi đến Cô giáo và tất cả các bạn nữ thân yêu của lớp K61ISI2 và K61ISI4!!";
         let timoutTextLetter;
 
         function textCharLetter() {
@@ -1141,7 +1131,11 @@
         // chữ của thư bạn muốn gửi
         let indexTextContent = 0;
         let textLetterContent = document.querySelector('.contentLetter');
-        const textLetterP = "Nhân ngày Phụ nữ Việt Nam 20/10, tập thể các bạn nam lớp K61ISI2 và K61ISI4 xin gửi lời chúc tốt đẹp nhất đến Cô giáo và các bạn nữ! Chúc Cô và các bạn luôn xinh đẹp, tươi tắn, giữ mãi nụ cười rạng rỡ và tràn đầy niềm vui không chỉ hôm nay mà cả 365 ngày trong năm. Cảm ơn các bạn đã mang lại sự tích cực và năng lượng cho lớp học. Chúc các bạn có một ngày lễ thật ý nghĩa! Thân ái!;
+        const textLetterP = "Nhân ngày Phụ nữ Việt Nam 20/10, tập thể nam sinh K61ISI2 và K61ISI4 xin gửi lời chúc tốt đẹp nhất đến Cô giáo và các bạn nữ!
+
+Chúc Cô và các bạn luôn xinh đẹp, tươi tắn, giữ mãi nụ cười rạng rỡ và tràn đầy niềm vui không chỉ hôm nay mà cả 365 ngày trong năm.
+
+Cảm ơn các bạn đã mang lại sự tích cực và năng lượng cho lớp học. Chúc các bạn có một ngày lễ thật ý nghĩa! Thân ái!";
         let timoutTextLetterContent;
         function textCharLetterContent() {
             if (indexTextContent < textLetterP.length) {
@@ -1255,21 +1249,5 @@
     </script>
 </body>
 
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
